@@ -1,17 +1,22 @@
-.project-card{
+body{
+background:#f2f2f2;
+font-family:Helvetica;
+}
+
+nav{
+background:#444;
+color:white;
+padding:15px;
+}
+
+.section{
 background:white;
-border-radius:10px;
-box-shadow:0 6px 15px rgba(0,0,0,0.1);
-padding:20px;
-transition:0.3s;
+padding:40px;
+margin:30px auto;
+max-width:900px;
 }
 
-.project-card:hover{
-transform:translateY(-5px);
-}
-
-.project-grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-gap:25px;
+h1{
+border-bottom:3px solid #007acc;
+padding-bottom:10px;
 }
